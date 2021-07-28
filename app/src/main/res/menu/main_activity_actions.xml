@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/hide_views"
+        android:title="Clear Weather"
+        android:icon="@drawable/cross"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/id_increase"
+        android:title="Increase Font Size"
+        android:icon="@drawable/icrease"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/id_decrease"
+        android:title="Decrease Font Size"
+        android:icon="@drawable/decrease"
+        app:showAsAction="always"
+        />
+</menu>
